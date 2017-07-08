@@ -128,4 +128,12 @@ fi
 
 fortune -e fortunes | cowsay
 
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  . ~/.config/exercism/exercism_completion.bash
+fi
+#so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
+stty -ixon
 
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
