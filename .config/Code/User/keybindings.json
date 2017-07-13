@@ -1,0 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+k n",
+        "command": "newFile.createNewFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-newFile.createNewFile"
+    }
+]
