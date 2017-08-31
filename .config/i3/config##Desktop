@@ -631,7 +631,7 @@ mode "$mode_gaps_outer" {
 ###################       C O M P T O N      ##############################
 ###########################################################################
 #if you want transparency on non-focused windows
-exec compton --config ~/.config/i3/compton.conf
+exec compton --config ~/.config/compton.conf
 
 ################### DISTRO DEPENDENT ######################
 
