@@ -504,3 +504,5 @@ mode "$mode_gaps_outer" {
 ###Rewrite script becuasse i deleted it like a dummy
 #bindsym Caps_Lock exec ~/bin/capsLockStatus.sh 
 
+bindsym $mod+p --release exec --no-startup-id scrot -s -e 'mv $f /tmp/ && feh /tmp/$f'
+exec redshift -l geoclue2 -b 1.0:1.0 -t 6500:3500
