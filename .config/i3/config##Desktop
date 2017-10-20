@@ -39,7 +39,7 @@ bindsym $mod+d exec "rofi -modi drun,run,window -show"
 # start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # launch categorized menu
-####bindsym $mod+z exec --no-startup-id morc_menu
+bindsym $mod+z exec --no-startup-id morc_menu
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
