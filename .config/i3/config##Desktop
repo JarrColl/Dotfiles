@@ -512,5 +512,5 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioStop exec playerctl stop
 
-bindsym $mod+p --release exec --no-startup-id scrot -s -e 'mv $f /tmp/ && feh /tmp/$f' 
+bindsym $mod+p exec maim -s | tee /tmp/$(date +%s).png | feh -
 exec redshift -l geoclue2 -b 1.0:1.0 -t 6500:3500
