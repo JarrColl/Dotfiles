@@ -4,6 +4,7 @@ Plug 'zhou13/vim-easyescape'
 Plug 'https://github.com/rking/ag.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'lervag/vimtex'
 
 call plug#end()
 
@@ -14,7 +15,7 @@ autocmd BufNewFile,BufRead * setlocal formatoptions-=cro
 syntax enable " enable syntax processing
 
 set tabstop=4       " number of visual spaces per TAB
-
+set shiftwidth=4
 set softtabstop=0   " number of spaces in tab when editing
 
 set number
