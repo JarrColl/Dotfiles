@@ -1,13 +1,13 @@
 [colors]
-background = #100f24
-background-alt = #1d1c45
+background = #1b1d1e
+background-alt = #ffffff
 alert = #b948be
-foreground = #d0d0d0
-foreground-alt = #b948be
+foreground = #a19e95
+foreground-alt = #839ba6
 primary = #b948be
 secondary = #3b73bd
-linecolor = #b948be
-border-color = #b948be
+linecolor = #a7aeb6
+border-color = #a7aeb6
 
 [bar/top]
 monitor = ${env:MONITOR:HDMI-0}
@@ -37,15 +37,17 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Terminus (TTF):size=9;1
-font-1 = FontAwesome:pixelsize=11;0
+font-0 = "Terminus (TTF):size=9;1"
+font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=10;0"
+font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=10;0"
+font-3 = "Font Awesome 5 Brands:pixelsize=10;0"
 
 fixed-center = true
 
 
 modules-left = i3
 modules-center = date
-modules-right = playing wireless-network cpu pavolume battery powermenu
+modules-right = playing wireless-network cpu pavolume powermenu
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
@@ -262,7 +264,7 @@ exec = ~/scripts/weather.py
 [module/wireless-network]
 type = internal/network
 
-interface = wlp3s0 
+interface = wlp4s0 
 
 format-connected = <label-connected>
 format-connected-padding = 2
@@ -272,7 +274,7 @@ format-disconnected-padding = 2
 
 label-connected =  %essid%
 
-label-disconnected =  None
+label-disconnected = 
 
 [module/playing]
 type = custom/script
