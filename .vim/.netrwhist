@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/etc/X11'
 let g:netrw_dirhist_2='/etc'
 let g:netrw_dirhist_3='/etc/X11'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/etc/X11'
 let g:netrw_dirhist_6='/etc/X11/Xreset.d'
 let g:netrw_dirhist_7='/home/jarron/.config/polybar'
 let g:netrw_dirhist_8='/home/jarron/.config/i3'
+let g:netrw_dirhist_9='/home/jarron/.config/polybar'
